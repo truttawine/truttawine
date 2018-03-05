@@ -1,0 +1,140 @@
+  /*
+  Theme: Trutta
+  Author: William Miller
+*/
+
+/*
+
+COLOURS
+
+/*
+  -----FONTS-----
+*/
+
+@font-face {
+    font-family: "BreakersSlab-Black";
+    src: url("../fonts/BreakersSlab-Black.WOFF") format('WOFF');
+}
+
+@font-face {
+    font-family: "BreakersSlab-Light";
+    src: url("../fonts/BreakersSlab-Light.WOFF") format('WOFF');
+}
+
+@font-face {
+    font-family: "Lettera";
+    src: url("../fonts/Lettera.WOFF") format('woff');
+}
+
+/*
+  ------General------
+*/
+
+html {
+  font-size: 1em;
+}
+
+header {
+  width: 100%;
+  height: 18.5vh;
+  text-align: center;
+  border-bottom: .6vh #365128 solid;
+}
+
+.logo {
+  padding: 4vh 0 5vh 0;
+  width: 30.5vh;
+}
+
+.title-box {
+  width: 100%;
+  height: 10.95vh;
+  text-align: center;
+}
+
+.title {
+  padding: 3.5vh 0 0vh 0;
+  font-family: 'BreakersSlab-Light';
+  font-size: 4vh;
+  letter-spacing: .7vh;
+  color: #365128
+}
+
+.pre-open {
+  border-bottom: .6vh #365128 solid;
+}
+
+.story-responsive-menu,
+.wine1-responsive-menu,
+.wine2-responsive-menu,
+.wine3-responsive-menu,
+.farming-responsive-menu,
+.gallery-responsive-menu,
+.contact-responsive-menu {
+  display: none;
+  /*height: auto;*/
+}
+
+.content {
+  background-color: #365128;
+  color: #ACF8DC;
+  font-family: "Lettera";
+
+}
+
+
+/*
+------ CONTENT ------
+*/
+
+
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.text-block {
+  width: 30%;
+  
+}
+
+.image-box {
+  padding: 10%;
+  width: 30%;
+}
+
+.images {
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+	.text-block {
+    font-size: 1em;
+  }
+
+  .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .text-block {
+    width: 90%;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-box {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+}
